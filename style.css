@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background: #141414;
+  color: white;
+  font-family: Arial;
+}
+header { display: flex; align-items: center; padding: 20px; }
+h1 { color: #e50914; margin-right: 20px; }
+#search { font-size: 20px; padding: 8px; width: 300px; }
+.row { margin: 20px; }
+.row h2 { margin-bottom: 10px; }
+.cards { display: flex; gap: 15px; overflow-x: auto; }
+.card { width: 220px; height: 130px; background-size: cover; background-position: center; border-radius: 6px; cursor: pointer; flex-shrink: 0; position: relative; }
+.card:focus { outline: none; transform: scale(1.1); }
+.favorite { position: absolute; top: 5px; right: 8px; font-size: 20px; }
+video { width: 100%; height: 40vh; background: black; }
