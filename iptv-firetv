@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>IPTV Fire TV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#e50914">
+</head>
+<body>
+
+<header>
+  <h1>IPTV Fire TV</h1>
+  <input id="search" placeholder="Suchen...">
+</header>
+
+<main id="content"></main>
+<video id="player" autoplay muted></video>
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script src="app.js"></script>
+</body>
+</html>
